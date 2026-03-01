@@ -284,7 +284,7 @@ class ScannerFragment : Fragment() {
             val preview = Preview.Builder()
                 .build()
                 .also {
-                    it.surfaceProvider = binding.previewView.surfaceProvider
+                    it.setSurfaceProvider(binding.previewView.surfaceProvider)
                 }
 
             val barcodeOptions = BarcodeScannerOptions.Builder()
