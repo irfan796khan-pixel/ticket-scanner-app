@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ticket Scanner</string>
+
+    <!-- Navigation -->
+    <string name="scanner">Scanner</string>
+    <string name="summary">Summary</string>
+    <string name="settings">Settings</string>
+
+    <!-- Scanner -->
+    <string name="manual_input">Manual Input</string>
+    <string name="camera_scan">Camera Scan</string>
+    <string name="enter_full_code">Enter Full Code</string>
+    <string name="hint_29_digit_code">29-digit numeric code</string>
+    <string name="scan_code">Scan Code</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="hint_ticket_id">Ticket ID (10 digits)</string>
+    <string name="hint_ticket_number">Ticket Number (0-999)</string>
+    <string name="hint_price_override">Price override (optional, e.g. 5.00)</string>
+    <string name="submit">Submit</string>
+    <string name="ticket_details">Ticket Details</string>
+    <string name="no_change_detected">No change detected</string>
+    <string name="scan_ignored">Scan ignored</string>
+
+    <!-- Format strings -->
+    <string name="ticket_id_format">Ticket ID: %s</string>
+    <string name="ticket_count_format">Remaining: %d</string>
+    <string name="price_format">Price: %s/ticket</string>
+    <string name="total_sale_format">Total Sales: %s</string>
+    <string name="last_scan_format">Last Scan: %s</string>
+    <string name="grand_total_format">Grand Total: %s</string>
+    <string name="total_tickets_format">Total Batches: %d</string>
+
+    <!-- Summary -->
+    <string name="sales_summary">Sales Summary</string>
+    <string name="no_tickets_scanned">No tickets scanned yet.\nScan a ticket to get started.</string>
+
+    <!-- Settings -->
+    <string name="price_matrix">Price Matrix</string>
+    <string name="use_nearest_match">Use nearest match for unlisted values</string>
+    <string name="add_rule">Add Rule</string>
+    <string name="reset_defaults">Reset Defaults</string>
+    <string name="show_audit_log">Show Audit Log</string>
+    <string name="hide_audit_log">Hide Audit Log</string>
+    <string name="no_audit_logs">No audit logs yet</string>
+    <string name="data_management">Data Management</string>
+    <string name="clear_all_data">Clear All Data</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/scannerFragment">
+
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.ticketscanner.app.ui.main.ScannerFragment"
+        android:label="@string/scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.ticketscanner.app.ui.summary.SummaryFragment"
+        android:label="@string/summary"
+        tools:layout="@layout/fragment_summary" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ticketscanner.app.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
