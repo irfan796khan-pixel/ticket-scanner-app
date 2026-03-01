@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorPrimaryVariant">#1976D2</color>
+    <color name="colorSecondary">#FF6F00</color>
+    <color name="colorSecondaryVariant">#FF8F00</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <!-- Status colors -->
+    <color name="status_new">#2E7D32</color>
+    <color name="status_sale">#1B5E20</color>
+    <color name="status_error">#C62828</color>
+    <color name="status_info">#1565C0</color>
+
+    <!-- Card colors -->
+    <color name="card_bg">#FFFFFF</color>
+    <color name="sold_out_bg">#FFF3E0</color>
+</resources>
